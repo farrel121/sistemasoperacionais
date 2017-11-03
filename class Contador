@@ -1,0 +1,13 @@
+public class Contador{
+	public void start(){
+		int cont = 0;
+		while (cont != 999999999){	
+			cont++;
+			System.out.println( "Valor do contador atualizado: " + cont);
+		}
+	}	
+	public static void main(String[] args){
+		Contador c1 = new Contador();
+		   c1.start();
+		  }
+}
